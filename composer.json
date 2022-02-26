@@ -1,0 +1,29 @@
+{
+    "name": "hjp1011/yii2-addonhelper",
+    "description": "The YiiFrame plugin helps with the extension",
+    "keywords": ["yii2", "addonhelper", "addon", "yiiframe", "yiiframework"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/hjp1011/yii2-addonhelper/issues",
+        "source": "https://github.com/hjp1011/yii2-addonhelper"
+    },
+    "authors": [
+        {
+            "name": "hjp1011"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiiframe\\addonhelper\\": "./src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
